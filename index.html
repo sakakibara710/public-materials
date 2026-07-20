@@ -27,7 +27,7 @@
         margin: 0;
         min-width: 320px;
         min-height: 100vh;
-        overflow-x: hidden;
+        overflow: hidden;
         color: var(--ink);
         font-family:
           "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic", Meiryo,
@@ -41,10 +41,20 @@
       .page {
         position: relative;
         display: grid;
+        height: 100vh;
         min-height: 100vh;
+        overflow: hidden;
         place-items: center;
         padding: 40px 24px;
         isolation: isolate;
+      }
+
+      @supports (height: 100dvh) {
+        body,
+        .page {
+          height: 100dvh;
+          min-height: 100dvh;
+        }
       }
 
       .decoration {
