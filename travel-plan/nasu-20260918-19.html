@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#29453d">
+<title>吉井ICから那須・塩原｜選べる1泊2日ドライブ 2026年9月18日〜19日</title>
+<style>
+:root{
+ --ink:#26352f;--muted:#6d7772;--paper:#f4f0e7;--card:#fffdf8;--green:#315d4f;
+ --line:#d8ddd7;--sage:#e5ede5;--blue:#e4edf3;--violet:#ebe7f2;--red:#f2e5e1;
+ --gold:#f3ead4;--amber:#b77b2d;--shadow:0 15px 40px rgba(36,58,50,.11)
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Yu Gothic","Hiragino Kaku Gothic ProN","Noto Sans JP",system-ui,sans-serif;line-height:1.68}
+a{color:inherit}.wrap{width:min(1160px,calc(100% - 28px));margin:auto}
+.hero{color:white;background:linear-gradient(125deg,#243f38,#507260 66%,#9a8060);padding:56px 0 96px;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 85% 12%,rgba(255,255,255,.19),transparent 24%)}
+.hero:after{content:"";position:absolute;left:-5%;right:-5%;bottom:-112px;height:170px;border-radius:50% 50% 0 0;background:var(--paper)}
+.hero-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center;position:relative;z-index:1}
+.kicker{display:inline-block;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.1);padding:7px 12px;border-radius:999px;font-size:.88rem;font-weight:800}
+h1{font-size:clamp(2.25rem,5.5vw,4.8rem);line-height:1.07;margin:17px 0 14px}
+.hero p{color:#eef5f1;max-width:730px;font-size:1.04rem}
+.hero-box{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.25);border-radius:22px;padding:21px;backdrop-filter:blur(10px)}
+.hero-box div{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.18)}.hero-box div:last-child{border-bottom:0}.hero-box b{display:block}
+main{position:relative;z-index:2;margin-top:-42px;padding-bottom:65px}
+.panel{background:var(--card);border:1px solid rgba(20,54,47,.08);border-radius:24px;box-shadow:var(--shadow);padding:24px;margin-bottom:22px}
+.fixed-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.fixed-card{padding:18px;border-radius:17px;background:var(--sage)}
+.fixed-card:nth-child(2){background:var(--blue)}.fixed-card h3{margin:0 0 6px}.fixed-card p{margin:0;color:var(--muted)}
+.critical{margin-top:14px;border:2px solid #d4a459;background:#fff4db;padding:17px;border-radius:15px}
+.critical h3{margin:0 0 6px;color:#815719}.critical p{margin:0;color:#725d3d}
+.meal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin-top:13px}
+.meal-card{background:white;border:1px solid #ead5ad;border-radius:14px;padding:13px}.meal-card b{display:block;color:#805719}.meal-card p{margin:4px 0 0;font-size:.88rem;color:var(--muted)}
+.section-head{display:flex;justify-content:space-between;gap:18px;align-items:end;margin:42px 0 15px}
+.section-head h2{font-size:clamp(1.55rem,3vw,2.25rem);margin:0;line-height:1.2}.section-head p{margin:5px 0 0;color:var(--muted)}
+.area-nav{display:grid;grid-template-columns:repeat(5,1fr);gap:9px}
+.area-nav a{text-decoration:none;text-align:center;background:white;border:1px solid var(--line);padding:13px 8px;border-radius:14px;font-weight:800}
+.area-nav a:hover{background:var(--sage)}
+.matrix{overflow:auto}table{width:100%;border-collapse:collapse;min-width:740px}th,td{padding:11px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#eaf0ec;color:var(--green);font-size:.82rem}td{font-size:.9rem}
+.region{background:var(--card);border:1px solid var(--line);border-radius:25px;margin:18px 0;padding:22px}
+.region-head{display:grid;grid-template-columns:auto 1fr auto;gap:15px;align-items:center;margin-bottom:17px}
+.region-icon{width:58px;height:58px;border-radius:18px;display:grid;place-items:center;font-size:2rem;background:var(--sage)}
+.region.blue .region-icon{background:var(--blue)}.region.violet .region-icon{background:var(--violet)}.region.red .region-icon{background:var(--red)}.region.gold .region-icon{background:var(--gold)}
+.region-kicker{font-size:.72rem;font-weight:900;color:var(--green);letter-spacing:.12em}
+.region h3{font-size:1.55rem;margin:0}.region-head p{margin:3px 0;color:var(--muted)}
+.region-meta{display:flex;flex-direction:column;gap:5px;align-items:flex-end}
+.region-meta span{font-size:.76rem;border:1px solid var(--line);border-radius:999px;padding:4px 8px;background:white}
+.place-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}
+.place-card{border:1px solid var(--line);background:white;border-radius:18px;padding:16px;display:flex;flex-direction:column;min-height:100%}
+.place-top{display:flex;justify-content:space-between;gap:8px;align-items:center}.mood{font-size:.72rem;font-weight:900;color:var(--green);background:var(--sage);padding:4px 7px;border-radius:999px}
+.duration{font-size:.76rem;color:var(--muted)}.place-card h4{font-size:1.08rem;margin:10px 0 5px}.place-card p{font-size:.88rem;color:var(--muted);margin:0 0 12px}
+.links{display:flex;flex-wrap:wrap;gap:7px;margin-top:auto}.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:999px;background:var(--green);color:white;font-size:.82rem;font-weight:900;padding:8px 11px}
+.btn.map{background:#eef3ef;color:var(--green);border:1px solid #cbd9d2}.btn.official{background:white;color:var(--green);border:1px solid var(--green)}
+.area-map{display:inline-block;margin-top:14px;color:var(--green);font-weight:900;text-decoration:none}
+.course-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.course-card{background:white;border:1px solid var(--line);border-radius:18px;padding:17px}
+.course-card span{font-size:.74rem;font-weight:900;color:var(--green);background:var(--sage);padding:4px 8px;border-radius:999px}.course-card h3{margin:10px 0 5px}.course-card p{color:var(--muted);font-size:.89rem}
+.food-region{background:var(--card);border:1px solid var(--line);border-radius:17px;margin:10px 0;overflow:hidden}summary{cursor:pointer;font-weight:900;padding:15px 17px;background:#eef3ef}
+.table-wrap{overflow:auto;padding:0 14px 12px}
+.hotel{background:linear-gradient(145deg,#253f38,#5f715f);color:white}.hotel h2{margin-top:0}.hotel>p{color:#eef4f1}
+.hotel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px}.hotel-tip{padding:14px;border-radius:15px;border:1px solid rgba(255,255,255,.17);background:rgba(255,255,255,.1)}
+.hotel-tip b{display:block;margin-bottom:3px}.hotel-tip p{margin:0;color:#f0f5f2;font-size:.87rem}.hotel .btn{background:white;color:var(--green);margin-top:14px}
+.check-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.check{padding:14px;border-radius:15px;background:#f0f3ef}.check b{display:block}.check p{margin:4px 0 0;color:var(--muted);font-size:.87rem}
+.footnote{color:var(--muted);font-size:.8rem;margin-top:20px}
+@media(max-width:980px){.hero-inner{grid-template-columns:1fr}.hero-box{display:none}.area-nav{grid-template-columns:repeat(3,1fr)}.place-grid{grid-template-columns:repeat(2,1fr)}.course-grid,.hotel-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.wrap{width:min(100% - 18px,1160px)}.hero{padding-top:38px}.panel,.region{padding:17px;border-radius:19px}.fixed-grid,.meal-grid,.place-grid,.course-grid,.hotel-grid,.check-grid{grid-template-columns:1fr}.area-nav{grid-template-columns:1fr 1fr}.region-head{grid-template-columns:auto 1fr}.region-meta{grid-column:1/-1;align-items:flex-start;flex-direction:row;flex-wrap:wrap}.section-head{display:block}}
+@media print{body{background:white}.hero{background:white;color:#000;padding:25px 0 50px}.hero:after,.hero-box,.area-nav,.btn,.area-map{display:none!important}main{margin-top:0}.panel,.region{box-shadow:none;break-inside:avoid}.hotel{background:white;color:#000;border:1px solid #999}.hotel>p,.hotel-tip p{color:#333}.place-grid{grid-template-columns:1fr 1fr}details{break-inside:avoid}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap hero-inner">
+  <div>
+    <span class="kicker">🚗 吉井IC発｜2026年9月18日（金）〜19日（土）</span>
+    <h1>行き先を選べる<br>那須・塩原ドライブ旅</h1>
+    <p>固定するのは「大丸温泉旅館18:00チェックイン」と素泊まりだけ。奥那須・那須高原・黒磯板室・塩原・西那須野から、天候と気分で観光と食事を選べます。</p>
+  </div>
+  <aside class="hero-box">
+    <div><b>固定</b><span>9月18日 18:00 大丸温泉旅館チェックイン</span></div>
+    <div><b>固定</b><span>素泊まり／夕食・朝食は自分で確保</span></div>
+    <div><b>自由</b><span>観光地、昼食、夕食、2日目の方向</span></div>
+    <div><b>基本</b><span>1回の半日で一方向を選び、横断しすぎない</span></div>
+  </aside>
+</div></header>
+
+<main><div class="wrap">
+<section class="panel">
+  <div class="fixed-grid">
+    <article class="fixed-card"><h3>1日目｜9月18日（金）</h3><p>吉井IC → 選んだエリアで観光・昼食 → <b>早めの夕食</b> → <b>18:00 大丸温泉旅館</b></p></article>
+    <article class="fixed-card"><h3>2日目｜9月19日（土）</h3><p>朝食方法を選択 → 予約票記載時刻にチェックアウト → 選んだエリア → 吉井方面</p></article>
+  </div>
+  <div class="critical">
+    <h3>素泊まりで最も重要なこと</h3>
+    <p>大丸温泉旅館は標高約1,300mの奥那須にある一軒宿です。18時到着後に周辺で食事を探すのではなく、山へ上がる前に夕食と翌朝の食事方法を決めておきます。</p>
+    <div class="meal-grid">
+      <article class="meal-card"><b>夕食：店で済ませる</b><p>16時台〜17時台前半を目安に那須湯本周辺で食事し、暗くなる前後に宿へ向かう。</p></article>
+      <article class="meal-card"><b>朝食：前日に購入</b><p>パン、乳製品、飲料などを購入。館内への食品持込み可否と保管方法は宿へ確認。</p></article>
+      <article class="meal-card"><b>朝食：翌日ブランチ</b><p>朝は温泉を優先し、チェックアウト後に那須高原・黒磯・塩原で遅めの朝食兼昼食。</p></article>
+    </div>
+  </div>
+</section>
+
+<div class="section-head"><div><h2>エリアから選ぶ</h2><p>1日目は宿と同じ那須側、2日目は塩原・板室・西那須野も自由に選べます。</p></div></div>
+<nav class="area-nav">
+  <a href="#okunasu">🚡 奥那須・那須岳</a>
+  <a href="#nasukogen">🐄 那須高原</a>
+  <a href="#itamuro">🌿 黒磯・板室</a>
+  <a href="#shiobara">🌉 塩原温泉郷</a>
+  <a href="#nishinasuno">🥛 西那須野</a>
+</nav>
+
+<section class="panel matrix">
+<table>
+<thead><tr><th>エリア</th><th>向く日</th><th>主な魅力</th><th>天候</th><th>選び方</th></tr></thead>
+<tbody>
+<tr><td><b>奥那須・那須岳</b></td><td>1日目◎</td><td>ロープウェイ、森、史跡</td><td>山は晴天優先</td><td>18時チェックインと最も両立しやすい</td></tr>
+<tr><td><b>那須高原</b></td><td>両日○</td><td>動物、牧場、美術館、遊園地</td><td>屋内候補あり</td><td>大型施設は1か所を主役にする</td></tr>
+<tr><td><b>黒磯・板室</b></td><td>2日目◎</td><td>滝、清流、美術館、カフェ</td><td>晴雨両対応</td><td>落ち着いた自然と文化</td></tr>
+<tr><td><b>塩原温泉郷</b></td><td>2日目◎</td><td>吊橋、滝、足湯、ご当地麺</td><td>散策中心</td><td>塩原方向へ一日をまとめる</td></tr>
+<tr><td><b>西那須野</b></td><td>2日目◎</td><td>牧場、買物、食事</td><td>比較的強い</td><td>帰路につなげやすい</td></tr>
+</tbody>
+</table>
+</section>
+
+<div class="section-head"><div><h2>観光スポット</h2><p>表示時間は現地滞在の目安。移動・駐車・待ち時間は別に確保してください。</p></div></div>
+
+    <section class="region green" id="okunasu">
+      <div class="region-head">
+        <div class="region-icon">🚡</div>
+        <div>
+          <div class="region-kicker">AREA 1</div>
+          <h3>奥那須・那須岳</h3>
+          <p>大丸温泉旅館と同じ山側。18時チェックインまでの移動が最も読みやすいエリアです。</p>
+        </div>
+        <div class="region-meta">
+          <span>1日目に最適</span><span>山は晴天優先</span><span>短時間〜半日</span>
+        </div>
+      </div>
+      <div class="place-grid">
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">絶景・9月営業</span><span class="duration">90分〜3時間</span></div>
+      <h4>那須ロープウェイ</h4>
+      <p>2026年は12月13日まで営業予定。茶臼岳9合目まで上がれ、天候が良ければ今回の最優先候補です。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%82%A4%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://www.nasu-ropeway.jp/information/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">森林散策・無料</span><span class="duration">60〜150分</span></div>
+      <h4>那須平成の森</h4>
+      <p>御用邸用地として守られてきた森。9月は通常9:00〜16:30、水曜休園のため両日とも曜日上は選びやすいです。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E5%B9%B3%E6%88%90%E3%81%AE%E6%A3%AE%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://nasuheisei-f.jp/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">史跡・短時間</span><span class="duration">40〜70分</span></div>
+      <h4>殺生石・那須温泉神社</h4>
+      <p>九尾の狐伝説と火山景観を短時間で。夕食前の時間調整にも向きます。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E6%AE%BA%E7%94%9F%E7%9F%B3%E3%83%BB%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%E7%A5%9E%E7%A4%BE%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://www.nasukogen.org/charm/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">吊橋・眺望</span><span class="duration">30〜60分</span></div>
+      <h4>つつじ吊橋</h4>
+      <p>那須連山を望む高原の吊橋。風が強い日や雨天は無理をせず短縮します。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E3%81%A4%E3%81%A4%E3%81%98%E5%90%8A%E6%A9%8B%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://www.nasukogen.org/">公式情報</a>
+      </div>
+    </article>
+
+      </div>
+      <a class="area-map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E9%82%A3%E9%A0%88%E3%83%BB%E9%82%A3%E9%A0%88%E5%B2%B3%20%E8%A6%B3%E5%85%89%20%E6%A0%83%E6%9C%A8">このエリアをGoogleマップで見る →</a>
+    </section>
+
+    <section class="region blue" id="nasukogen">
+      <div class="region-head">
+        <div class="region-icon">🐄</div>
+        <div>
+          <div class="region-kicker">AREA 2</div>
+          <h3>那須高原レジャー</h3>
+          <p>動物、牧場、美術館、遊園地から選択。大施設は1か所を主役にして、詰め込みすぎない構成です。</p>
+        </div>
+        <div class="region-meta">
+          <span>1日目または2日目</span><span>屋内候補あり</span><span>2時間〜1日</span>
+        </div>
+      </div>
+      <div class="place-grid">
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">動物・一部屋内</span><span class="duration">3〜5時間</span></div>
+      <h4>那須どうぶつ王国</h4>
+      <p>動物との距離が近く、屋内施設もあります。ショー時刻と2026年9月の営業カレンダーを確認。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E7%8E%8B%E5%9B%BD%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://www.nasu-oukoku.com/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">入場無料・牧場</span><span class="duration">60〜150分</span></div>
+      <h4>那須高原 南ヶ丘牧場</h4>
+      <p>年中無休・入場無料の観光牧場。乳製品、動物、食事を滞在時間に合わせて選べます。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E9%AB%98%E5%8E%9F%20%E5%8D%97%E3%83%B6%E4%B8%98%E7%89%A7%E5%A0%B4%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://www.minamigaoka.co.jp/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">雨天・美術館</span><span class="duration">60〜120分</span></div>
+      <h4>那須ステンドグラス美術館</h4>
+      <p>アンティークステンドグラスと礼拝堂の音色を楽しめる、雨天日の有力候補です。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E3%82%B9%E3%83%86%E3%83%B3%E3%83%89%E3%82%B0%E3%83%A9%E3%82%B9%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://www.nasukogen.org/spotsearch/detail.php?id=100121227">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">遊園地・家族向け</span><span class="duration">4時間〜1日</span></div>
+      <h4>那須ハイランドパーク</h4>
+      <p>選ぶ場合はこの施設を一日の主役に。18時チェックイン日は退園時刻を早めに設定します。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E3%83%8F%E3%82%A4%E3%83%A9%E3%83%B3%E3%83%89%E3%83%91%E3%83%BC%E3%82%AF%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://www.nasuhai.co.jp/">公式情報</a>
+      </div>
+    </article>
+
+      </div>
+      <a class="area-map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E9%AB%98%E5%8E%9F%E3%83%AC%E3%82%B8%E3%83%A3%E3%83%BC%20%E8%A6%B3%E5%85%89%20%E6%A0%83%E6%9C%A8">このエリアをGoogleマップで見る →</a>
+    </section>
+
+    <section class="region violet" id="itamuro">
+      <div class="region-head">
+        <div class="region-icon">🌿</div>
+        <div>
+          <div class="region-kicker">AREA 3</div>
+          <h3>黒磯・板室</h3>
+          <p>渓谷と滝、現代美術、カフェを組み合わせられます。那須高原より比較的落ち着いた選択肢です。</p>
+        </div>
+        <div class="region-meta">
+          <span>2日目に組みやすい</span><span>自然＋屋内</span><span>半日</span>
+        </div>
+      </div>
+      <div class="place-grid">
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">滝・短時間</span><span class="duration">30〜50分</span></div>
+      <h4>乙女の滝</h4>
+      <p>駐車場から近く、短い散策で滝を見られます。階段や濡れた足元に注意。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E4%B9%99%E5%A5%B3%E3%81%AE%E6%BB%9D%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://nasushiobara-kanko.jp/spots/11706/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">清流・散策</span><span class="duration">60〜120分</span></div>
+      <h4>木の俣渓谷と木の俣園地</h4>
+      <p>青く澄んだ流れと巨岩吊橋。9月は駐車場が7:00〜18:00で有料期間内です。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E3%81%AE%E4%BF%A3%E6%B8%93%E8%B0%B7%E3%81%A8%E6%9C%A8%E3%81%AE%E4%BF%A3%E5%9C%92%E5%9C%B0%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://nasushiobara-kanko.jp/spots/11789/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">現代美術・雨天</span><span class="duration">60〜120分</span></div>
+      <h4>N's YARD</h4>
+      <p>奈良美智の作品を中心とした美術館。開館日・日時指定の有無を公式で確認します。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=N%27s%20YARD%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://www.nsyard.com/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">建築・買物</span><span class="duration">45〜90分</span></div>
+      <h4>道の駅 明治の森・黒磯</h4>
+      <p>旧青木家那須別邸、農産物、休憩を一度に。帰路の時間調整にも便利です。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%81%93%E3%81%AE%E9%A7%85%20%E6%98%8E%E6%B2%BB%E3%81%AE%E6%A3%AE%E3%83%BB%E9%BB%92%E7%A3%AF%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://nasushiobara-kanko.jp/">公式情報</a>
+      </div>
+    </article>
+
+      </div>
+      <a class="area-map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%BB%92%E7%A3%AF%E3%83%BB%E6%9D%BF%E5%AE%A4%20%E8%A6%B3%E5%85%89%20%E6%A0%83%E6%9C%A8">このエリアをGoogleマップで見る →</a>
+    </section>
+
+    <section class="region red" id="shiobara">
+      <div class="region-head">
+        <div class="region-icon">🌉</div>
+        <div>
+          <div class="region-kicker">AREA 4</div>
+          <h3>塩原温泉郷</h3>
+          <p>箒川沿いの滝、吊橋、足湯、ご当地グルメを選べます。奥那須からは距離があるため一方向にまとめます。</p>
+        </div>
+        <div class="region-meta">
+          <span>2日目の周遊候補</span><span>渓谷・足湯・街歩き</span><span>半日〜1日</span>
+        </div>
+      </div>
+      <div class="place-grid">
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">吊橋・景観</span><span class="duration">45〜90分</span></div>
+      <h4>もみじ谷大吊橋</h4>
+      <p>全長320mの吊橋。9月中旬は紅葉最盛期前ですが、湖と山の景色を楽しめます。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E3%82%82%E3%81%BF%E3%81%98%E8%B0%B7%E5%A4%A7%E5%90%8A%E6%A9%8B%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://nasushiobara-kanko.jp/special/shiobaraonsen/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">足湯・休憩</span><span class="duration">45〜90分</span></div>
+      <h4>塩原温泉 湯っ歩の里</h4>
+      <p>回廊型の足湯施設。大丸温泉の入浴とは違う軽い温泉体験として選べます。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%B9%AF%E3%81%A3%E6%AD%A9%E3%81%AE%E9%87%8C%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://www.siobara.or.jp/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">滝・森林歩き</span><span class="duration">60〜100分</span></div>
+      <h4>竜化の滝</h4>
+      <p>塩原を代表する滝の一つ。遊歩道の通行状況と雨後の足元を確認します。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E7%AB%9C%E5%8C%96%E3%81%AE%E6%BB%9D%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://www.siobara.or.jp/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">街歩き・雨天可</span><span class="duration">60〜120分</span></div>
+      <h4>塩原もの語り館・紅の吊橋</h4>
+      <p>展示、直売所、カフェと吊橋をまとめて楽しめます。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E5%A1%A9%E5%8E%9F%E3%82%82%E3%81%AE%E8%AA%9E%E3%82%8A%E9%A4%A8%E3%83%BB%E7%B4%85%E3%81%AE%E5%90%8A%E6%A9%8B%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://shiobara-monogatari.com/">公式情報</a>
+      </div>
+    </article>
+
+      </div>
+      <a class="area-map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E8%A6%B3%E5%85%89%20%E6%A0%83%E6%9C%A8">このエリアをGoogleマップで見る →</a>
+    </section>
+
+    <section class="region gold" id="nishinasuno">
+      <div class="region-head">
+        <div class="region-icon">🥛</div>
+        <div>
+          <div class="region-kicker">AREA 5</div>
+          <h3>西那須野・千本松</h3>
+          <p>高速ICに近く、帰路へつなげやすいエリア。牧場、アウトレット、歴史を自由に組み合わせます。</p>
+        </div>
+        <div class="region-meta">
+          <span>2日目・帰路向き</span><span>買物と食事に強い</span><span>2〜4時間</span>
+        </div>
+      </div>
+      <div class="place-grid">
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">牧場・入場無料</span><span class="duration">90分〜4時間</span></div>
+      <h4>那須千本松牧場</h4>
+      <p>入場・駐車場無料。動物、乗馬、乳製品、食事を同じ場所で選べ、帰路調整がしやすいです。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E5%8D%83%E6%9C%AC%E6%9D%BE%E7%89%A7%E5%A0%B4%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://www.senbonmatsu.com/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">買物・雨天対応</span><span class="duration">90分〜3時間</span></div>
+      <h4>那須ガーデンアウトレット</h4>
+      <p>買物と食事をまとめたい日向き。土曜の混雑を考えて早めの到着が安心です。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://www.nasu-gardenoutlet.com/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">食・複合施設</span><span class="duration">60〜180分</span></div>
+      <h4>那須パラダイスヴィレッジ</h4>
+      <p>アウトレット隣接の飲食複合施設。同行者の食の好みが分かれる場合に便利です。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E3%83%91%E3%83%A9%E3%83%80%E3%82%A4%E3%82%B9%E3%83%B4%E3%82%A3%E3%83%AC%E3%83%83%E3%82%B8%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://nasu-paradise-village.com/">公式情報</a>
+      </div>
+    </article>
+
+    <article class="place-card">
+      <div class="place-top"><span class="mood">歴史・雨天</span><span class="duration">60〜120分</span></div>
+      <h4>那須野が原博物館</h4>
+      <p>那須野が原開拓の歴史を学べる屋内候補。牧場観光と違う静かな選択肢です。</p>
+      <div class="links">
+        <a class="btn map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E9%87%8E%E3%81%8C%E5%8E%9F%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+        <a class="btn official" target="_blank" rel="noopener" href="https://www.city.nasushiobara.tochigi.jp/">公式情報</a>
+      </div>
+    </article>
+
+      </div>
+      <a class="area-map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E9%82%A3%E9%A0%88%E9%87%8E%E3%83%BB%E5%8D%83%E6%9C%AC%E6%9D%BE%20%E8%A6%B3%E5%85%89%20%E6%A0%83%E6%9C%A8">このエリアをGoogleマップで見る →</a>
+    </section>
+
+
+<div class="section-head"><div><h2>組み合わせ例</h2><p>固定コースではなく、方向と食事時刻を決めるためのひな型です。</p></div></div>
+<section class="course-grid">
+    <article class="course-card">
+      <span>9/18向き</span>
+      <h3>山岳絶景</h3>
+      <p>吉井IC → 那須ロープウェイ → 早めの夕食 → 大丸温泉旅館</p>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=%E5%90%89%E4%BA%95%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8&destination=%E5%A4%A7%E4%B8%B8%E6%B8%A9%E6%B3%89%E6%97%85%E9%A4%A8&travelmode=driving&waypoints=%E9%82%A3%E9%A0%88%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%82%A4%7C%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%83%8F%E3%82%A6%E3%82%B9%E5%AF%BF%E6%A5%BD%20%E6%9C%AC%E5%BA%97">経由地入りGoogleマップ</a>
+    </article>
+
+    <article class="course-card">
+      <span>9/18向き</span>
+      <h3>雨天・美術館</h3>
+      <p>吉井IC → 那須ステンドグラス美術館 → ジョイア・ミーア → 大丸温泉旅館</p>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=%E5%90%89%E4%BA%95%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8&destination=%E5%A4%A7%E4%B8%B8%E6%B8%A9%E6%B3%89%E6%97%85%E9%A4%A8&travelmode=driving&waypoints=%E9%82%A3%E9%A0%88%E3%82%B9%E3%83%86%E3%83%B3%E3%83%89%E3%82%B0%E3%83%A9%E3%82%B9%E7%BE%8E%E8%A1%93%E9%A4%A8%7C%E3%82%B8%E3%83%A7%E3%82%A4%E3%82%A2%E3%83%BB%E3%83%9F%E3%83%BC%E3%82%A2%20%E9%82%A3%E9%A0%88%E6%9C%AC%E5%BA%97">経由地入りGoogleマップ</a>
+    </article>
+
+    <article class="course-card">
+      <span>9/18または19</span>
+      <h3>動物・牧場</h3>
+      <p>那須どうぶつ王国または南ヶ丘牧場を主役にして他を減らす</p>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=%E5%90%89%E4%BA%95%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8&destination=%E5%A4%A7%E4%B8%B8%E6%B8%A9%E6%B3%89%E6%97%85%E9%A4%A8&travelmode=driving&waypoints=%E9%82%A3%E9%A0%88%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E7%8E%8B%E5%9B%BD%7C%E9%82%A3%E9%A0%88%E9%AB%98%E5%8E%9F%20%E5%8D%97%E3%83%B6%E4%B8%98%E7%89%A7%E5%A0%B4">経由地入りGoogleマップ</a>
+    </article>
+
+    <article class="course-card">
+      <span>9/19向き</span>
+      <h3>塩原渓谷</h3>
+      <p>大丸温泉旅館 → 竜化の滝 → 塩原もの語り館 → 塩原ランチ → 吉井IC</p>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=%E5%A4%A7%E4%B8%B8%E6%B8%A9%E6%B3%89%E6%97%85%E9%A4%A8&destination=%E5%90%89%E4%BA%95%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8&travelmode=driving&waypoints=%E7%AB%9C%E5%8C%96%E3%81%AE%E6%BB%9D%7C%E5%A1%A9%E5%8E%9F%E3%82%82%E3%81%AE%E8%AA%9E%E3%82%8A%E9%A4%A8%7C%E3%81%93%E3%81%B0%E3%82%84%E9%A3%9F%E5%A0%82">経由地入りGoogleマップ</a>
+    </article>
+
+    <article class="course-card">
+      <span>9/19向き</span>
+      <h3>板室・黒磯</h3>
+      <p>大丸温泉旅館 → 乙女の滝 → N's YARD → 黒磯カフェ → 吉井IC</p>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=%E5%A4%A7%E4%B8%B8%E6%B8%A9%E6%B3%89%E6%97%85%E9%A4%A8&destination=%E5%90%89%E4%BA%95%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8&travelmode=driving&waypoints=%E4%B9%99%E5%A5%B3%E3%81%AE%E6%BB%9D%7CN%27s%20YARD%7C1988%20CAFE%20SHOZO">経由地入りGoogleマップ</a>
+    </article>
+
+    <article class="course-card">
+      <span>9/19向き</span>
+      <h3>帰路らくらく</h3>
+      <p>大丸温泉旅館 → 千本松牧場 → 那須ガーデンアウトレット → 吉井IC</p>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=%E5%A4%A7%E4%B8%B8%E6%B8%A9%E6%B3%89%E6%97%85%E9%A4%A8&destination=%E5%90%89%E4%BA%95%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8&travelmode=driving&waypoints=%E9%82%A3%E9%A0%88%E5%8D%83%E6%9C%AC%E6%9D%BE%E7%89%A7%E5%A0%B4%7C%E9%82%A3%E9%A0%88%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88">経由地入りGoogleマップ</a>
+    </article>
+    </section>
+
+<div class="section-head"><div><h2>食事処をエリア別に選ぶ</h2><p>9月18日の夕食は、営業時間だけでなく「17時台に食べ終えて宿へ向かえるか」で選びます。</p></div></div>
+<section>
+    <details class="food-region" open>
+      <summary><span>🚡</span> 奥那須・那須岳の食事処</summary>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>店</th><th>ジャンル</th><th>今回の使い方</th><th>リンク</th></tr></thead>
+          <tbody>
+      <tr>
+        <td><b>ステーキハウス寿楽 本店</b></td>
+        <td>那須和牛・ステーキ</td>
+        <td>素泊まり初日の早めの夕食候補。18時チェックインから逆算して入店・退店時刻を決めます。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%83%8F%E3%82%A6%E3%82%B9%E5%AF%BF%E6%A5%BD%20%E6%9C%AC%E5%BA%97%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://juraku-honten.jp/">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>ジョイア・ミーア 那須本店</b></td>
+        <td>ピザ・パスタ・イタリアン</td>
+        <td>複数人で料理を分けやすい夕食候補。予約・当日の営業時間確認を推奨。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E3%82%B8%E3%83%A7%E3%82%A4%E3%82%A2%E3%83%BB%E3%83%9F%E3%83%BC%E3%82%A2%20%E9%82%A3%E9%A0%88%E6%9C%AC%E5%BA%97%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://www.gioiamia.jp/">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>レストラン ペニーレイン 那須店</b></td>
+        <td>洋食・パン</td>
+        <td>食事に加えて翌朝用のパンを購入しやすい候補。閉店時刻・売切れを確認。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%20%E3%83%9A%E3%83%8B%E3%83%BC%E3%83%AC%E3%82%A4%E3%83%B3%20%E9%82%A3%E9%A0%88%E5%BA%97%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://pennylane.company/pennylane_r_nasu">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>水車の里 瑞穂蔵</b></td>
+        <td>釜炊きごはん・田舎料理</td>
+        <td>昼食向き。夕食営業日は限定されるため、基本は1日目の昼食候補です。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E8%BB%8A%E3%81%AE%E9%87%8C%20%E7%91%9E%E7%A9%82%E8%94%B5%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://mizuhokura-food.com/">公式・観光案内</a>
+        </td>
+      </tr>
+    </tbody>
+        </table>
+      </div>
+    </details>
+
+    <details class="food-region" >
+      <summary><span>🐄</span> 那須高原レジャーの食事処</summary>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>店</th><th>ジャンル</th><th>今回の使い方</th><th>リンク</th></tr></thead>
+          <tbody>
+      <tr>
+        <td><b>南ヶ丘牧場 ジンギスカンハウス</b></td>
+        <td>ジンギスカン・牧場料理</td>
+        <td>観光と食事を同じ場所で完結。乳製品やソフトクリームも選べます。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E3%83%B6%E4%B8%98%E7%89%A7%E5%A0%B4%20%E3%82%B8%E3%83%B3%E3%82%AE%E3%82%B9%E3%82%AB%E3%83%B3%E3%83%8F%E3%82%A6%E3%82%B9%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://www.minamigaoka.co.jp/">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>なすとらん（道の駅 那須高原友愛の森）</b></td>
+        <td>地元食材・定食</td>
+        <td>那須高原野菜などを気軽に。基本は昼食向きです。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E3%81%AA%E3%81%99%E3%81%A8%E3%82%89%E3%82%93%EF%BC%88%E9%81%93%E3%81%AE%E9%A7%85%20%E9%82%A3%E9%A0%88%E9%AB%98%E5%8E%9F%E5%8F%8B%E6%84%9B%E3%81%AE%E6%A3%AE%EF%BC%89%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://www.nasukogen.org/">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>チーズガーデン 那須本店</b></td>
+        <td>チーズ菓子・カフェ</td>
+        <td>軽食、休憩、翌朝用の菓子や土産購入に。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E3%83%81%E3%83%BC%E3%82%BA%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%20%E9%82%A3%E9%A0%88%E6%9C%AC%E5%BA%97%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://cheesegarden.jp/pages/nasu">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>NASU SHOZO CAFE</b></td>
+        <td>カフェ・焼菓子</td>
+        <td>森のカフェで休憩。食事というより喫茶と焼菓子購入向きです。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=NASU%20SHOZO%20CAFE%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://www.shozo.co.jp/">公式・観光案内</a>
+        </td>
+      </tr>
+    </tbody>
+        </table>
+      </div>
+    </details>
+
+    <details class="food-region" >
+      <summary><span>🌿</span> 黒磯・板室の食事処</summary>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>店</th><th>ジャンル</th><th>今回の使い方</th><th>リンク</th></tr></thead>
+          <tbody>
+      <tr>
+        <td><b>1988 CAFE SHOZO</b></td>
+        <td>カフェ・スコーン</td>
+        <td>黒磯の定番カフェ。観光途中の休憩や軽い食事に。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=1988%20CAFE%20SHOZO%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://www.shozo.co.jp/">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>そば処 やしお</b></td>
+        <td>手打ちそば</td>
+        <td>板室観光と組み合わせやすい昼食。火曜定休のため今回の日程では曜日上選択可能。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E5%87%A6%20%E3%82%84%E3%81%97%E3%81%8A%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://www.nasuyashiosoba.com/">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>農村レストラン 高林坊</b></td>
+        <td>那須野秋そば</td>
+        <td>そばと地元の味。木曜定休情報のため金・土は曜日上候補です。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E8%BE%B2%E6%9D%91%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%20%E9%AB%98%E6%9E%97%E5%9D%8A%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://kourinbo.com/">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>CAFÉ NOVIRO</b></td>
+        <td>洋食・カフェ</td>
+        <td>予約優先のランチ店。金曜は営業日情報、土曜も材料切れ前の早め入店向き。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=CAF%C3%89%20NOVIRO%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://noviro.jp/">公式・観光案内</a>
+        </td>
+      </tr>
+    </tbody>
+        </table>
+      </div>
+    </details>
+
+    <details class="food-region" >
+      <summary><span>🌉</span> 塩原温泉郷の食事処</summary>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>店</th><th>ジャンル</th><th>今回の使い方</th><th>リンク</th></tr></thead>
+          <tbody>
+      <tr>
+        <td><b>こばや食堂</b></td>
+        <td>スープ入り焼きそば</td>
+        <td>塩原名物を優先する第一候補。混雑・売切れ・営業日を当日確認。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E3%81%93%E3%81%B0%E3%82%84%E9%A3%9F%E5%A0%82%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://nasushiobara-kanko.jp/gourmet-list/1506/">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>釜彦</b></td>
+        <td>元祖スープ入り焼きそば</td>
+        <td>同じ名物を別の味で選べる候補。こばや食堂との二択に。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%87%9C%E5%BD%A6%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://www.siobara.or.jp/gourmet/category/specialty/">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>カフェレストラン洋燈</b></td>
+        <td>オムライス・洋食</td>
+        <td>紅の吊橋を眺めながら食事。塩原もの語り館と同時に選びやすいです。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%95%E3%82%A7%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E6%B4%8B%E7%87%88%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://nasushiobara-kanko.jp/gourmet-list/1505/">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>くだものやカフェ 通りの茶屋 藤屋</b></td>
+        <td>とて焼・甘味</td>
+        <td>食後の塩原名物や軽食に。主食より散策中のおやつ向きです。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E3%81%8F%E3%81%A0%E3%82%82%E3%81%AE%E3%82%84%E3%82%AB%E3%83%95%E3%82%A7%20%E9%80%9A%E3%82%8A%E3%81%AE%E8%8C%B6%E5%B1%8B%20%E8%97%A4%E5%B1%8B%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://nasushiobara-kanko.jp/gourmet-list/">公式・観光案内</a>
+        </td>
+      </tr>
+    </tbody>
+        </table>
+      </div>
+    </details>
+
+    <details class="food-region" >
+      <summary><span>🥛</span> 西那須野・千本松の食事処</summary>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>店</th><th>ジャンル</th><th>今回の使い方</th><th>リンク</th></tr></thead>
+          <tbody>
+      <tr>
+        <td><b>千本松牧場 ファームレストラン</b></td>
+        <td>洋食・牧場料理</td>
+        <td>牧場観光と食事を一か所で。混雑時は先に受付を確認します。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E6%9C%AC%E6%9D%BE%E7%89%A7%E5%A0%B4%20%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://www.senbonmatsu.com/eat/">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>千本松牧場 食事処もみじ亭</b></td>
+        <td>そば・和食</td>
+        <td>洋食より軽めにしたい場合の同施設内候補。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E6%9C%AC%E6%9D%BE%E7%89%A7%E5%A0%B4%20%E9%A3%9F%E4%BA%8B%E5%87%A6%E3%82%82%E3%81%BF%E3%81%98%E4%BA%AD%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://www.senbonmatsu.com/eat/">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>那須パラダイスヴィレッジ</b></td>
+        <td>和洋中・複数店舗</td>
+        <td>好みが分かれるグループ向け。営業店舗を当日確認。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E3%83%91%E3%83%A9%E3%83%80%E3%82%A4%E3%82%B9%E3%83%B4%E3%82%A3%E3%83%AC%E3%83%83%E3%82%B8%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://nasu-paradise-village.com/">公式・観光案内</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>かどや</b></td>
+        <td>冷やしたぬきそば</td>
+        <td>西那須野の地元系そば。帰路前の昼食候補です。</td>
+        <td>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%A9%E3%82%84%20%E6%A0%83%E6%9C%A8">Googleマップ</a><br>
+          <a target="_blank" rel="noopener" href="https://nasushiobara-kanko.jp/gourmet-list/1491/">公式・観光案内</a>
+        </td>
+      </tr>
+    </tbody>
+        </table>
+      </div>
+    </details>
+    </section>
+
+<div class="section-head"><div><h2>大丸温泉旅館で確保する時間</h2><p>素泊まりだからこそ、食事時刻に追われず温泉を中心に過ごせます。</p></div></div>
+<section class="panel hotel">
+  <h2>18:00到着後のおすすめ</h2>
+  <p>宿の裏手から湧く温泉が川となった大野天風呂「川の湯」が最大の魅力です。到着後すぐに入浴準備を整え、夜と翌朝の2回に分けて楽しみます。</p>
+  <div class="hotel-grid">
+    <article class="hotel-tip"><b>18:00 到着</b><p>到着予定を宿へ共有。館内説明、入浴時間、混浴露天の利用方法を確認。</p></article>
+    <article class="hotel-tip"><b>到着後すぐ</b><p>暗くなる前後の外気を感じながら川の湯へ。撮影機器は浴場へ持ち込まない。</p></article>
+    <article class="hotel-tip"><b>湯浴みの準備</b><p>川の湯は伝統的な混浴形式。宿の案内に従い、指定の湯浴み着・バスタオルを利用。</p></article>
+    <article class="hotel-tip"><b>夜はゆっくり</b><p>夕食がないため、入浴後は部屋で休憩。飲料や軽食は山へ上がる前に準備。</p></article>
+    <article class="hotel-tip"><b>翌朝</b><p>人や天候の状況を見て朝風呂へ。気温差があるため湯冷めに注意。</p></article>
+    <article class="hotel-tip"><b>出発前</b><p>チェックアウト時刻、道路、ロープウェイ運行、2日目の店の開店時刻を再確認。</p></article>
+  </div>
+  <a class="btn" target="_blank" rel="noopener" href="https://www.omaru.co.jp/">大丸温泉旅館 公式サイト</a>
+  <a class="btn" target="_blank" rel="noopener" href="https://www.omaru.co.jp/roten.htm">露天風呂の案内</a>
+  <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E4%B8%B8%E6%B8%A9%E6%B3%89%E6%97%85%E9%A4%A8%20%E6%A0%83%E6%9C%A8">Googleマップ</a>
+</section>
+
+<div class="section-head"><div><h2>当日決定のチェック</h2></div></div>
+<section class="panel check-grid">
+  <article class="check"><b>那須岳が見える</b><p>ロープウェイか平成の森を優先。</p></article>
+  <article class="check"><b>雨・強風</b><p>ステンドグラス、N's YARD、博物館、買物へ。</p></article>
+  <article class="check"><b>歩きたくない</b><p>南ヶ丘牧場、殺生石、千本松牧場を短時間で。</p></article>
+  <article class="check"><b>食を優先</b><p>那須和牛、パン、スープ入り焼きそば、牧場乳製品から方向を決める。</p></article>
+</section>
+
+<p class="footnote">情報確認日：2026年7月21日。旅行日は2026年9月18日（金）〜19日（土）。営業時間、定休日、ロープウェイ運行、遊歩道、予約条件、食品の持込み可否は変更されます。出発前に各公式サイトとGoogleマップ、必要に応じて電話で再確認してください。</p>
+</div></main>
+</body></html>
